@@ -1,0 +1,14 @@
+pipeline{
+    agent java_slave
+    environment{
+        staging_server="13.210.211.146"
+    }
+
+    stages{
+        stage('Deploy to remote'){
+            steps{
+                sh 'scp ${WORKSPACE}/* ROOT@${staging_server}:/var/www/html/myphp/'
+            }
+        }
+    }
+}
