@@ -1,5 +1,5 @@
 pipeline{
-    agent java_slave
+    agent any
     environment{
         staging_server="13.210.211.146"
     }
