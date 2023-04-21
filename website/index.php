@@ -1,3 +1,4 @@
+<?php
 <html>
 <head>
 <title>PHP Test</title>
@@ -7,6 +8,7 @@
 </body>
 </html>
 
-
+run();
+?>
 
 
