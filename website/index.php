@@ -1,7 +1,12 @@
-<?php
-require 'config.php';
-require 'functions.php';
-echo "Hello, World!";
-run();
-?>
+<html>
+<head>
+<title>PHP Test</title>
+<head>
+<body>
+<?php echo '<p>hello World</p>'; ?>
+</body>
+</html>
+
+
+
 
