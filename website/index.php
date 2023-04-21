@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hello, World!</title>
-</head>
-<body>
-    <?php
-        echo "Hello, World!";
-    ?>
-</body>
-</html>
+<?php
+
+
+require 'config.php';
+require 'functions.php';
+
+run();
+?>
 
 
